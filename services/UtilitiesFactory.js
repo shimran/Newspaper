@@ -1,5 +1,4 @@
-newspaperå.factory('UtilitiesFactory', function UtilitiesFactory() {
-
+newspaper.factory('UtilitiesFactory', function UtilitiesFactory() {
   return {
     findById: function(collection, id) {
         for(var i = 0; i < collection.length; i++) {

@@ -1,8 +1,9 @@
 <div ui-view>
+  <h1>ShimCity Times: <i>Your world, today</i></h1>
   <h2>Here are our Divisions:</h2>
 <div ng-show="beats.length">
   <div class="col-md-12">
-    <h3>Search Beats</h3>
+    <h3>Search Divisions</h3>
     <form class="form-inline" role="form">
       <div>
         <input ng-model="query" type="text" class="form-control" placeholder="Search">
@@ -12,7 +13,7 @@
 </div>
 
 <div class="col-md-12">
-  <h3 ng-show="beats.length && filtered.length">The Beats:</h3>
+  <h3 ng-show="beats.length && filtered.length">Divisons:</h3>
   <h3 ng-show="beats.length && !filtered.length"> No Results </h3>
   <ul>
     <li ng-repeat="item in filtered = (beats | filter:query)">

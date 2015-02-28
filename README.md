@@ -23,11 +23,11 @@ Future Functionality:
 
 This app is a work in progress. Currently the ShimCity Times directory does not allow for the editing or deleting of reporters should they get fired, or moved on to another job. This will be added in the future. Similarly Divisions cannot be deleted in the event of downsizing. Additionally, with the lack of databases or connection to an external server, the directory will disappear at the shutdown of the simple server.
 
-Articles each reporter wrote will be featured in their profile, along with links to all of them, with a date timestamp. 
+Articles each reporter wrote will be featured in their profile, along with links to all of them, with a date timestamp.
 
 Contribute
 
-Source Code: https://github.com/shimran/Pizza-Company
+Source Code: https://github.com/shimran/Newspaper
 
 Contact:
 

@@ -14,7 +14,7 @@
 
 <div class="col-md-12">
   <h3 ng-show="beats.length && filtered.length">Divisons:</h3>
-  <h3 ng-show="beats.length && !filtered.length"> No Results </h3>
+  <h3 ng-show="beats.length && !filtered.length"> Sorry, no matches </h3>
   <ul>
     <li ng-repeat="item in filtered = (beats | filter:query)">
       <a ui-sref="beats.reporters({ beatId: item.id })">{{ item.name }}</a>

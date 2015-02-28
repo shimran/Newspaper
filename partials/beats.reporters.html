@@ -18,9 +18,10 @@
         {{item.name}}
       </span>
       <button ng-click="editing = true" ng-hide="editing; showAll" class="btn btn-sm btn-warning">Edit</button>
+
       <form ng-submit="editReporter(item.id); editing = false" ng-show="editing" class="form-inline">
         <input type="number" ng-model="reporterTenure" placeholder="Years of Service">
-        <input type="text" ng-model="reporterAwards" placeholder="Birthday">
+        <input type="text" ng-model="reporterBirthday" placeholder="Birthday">
         <button type="submit" class="btn btn-sm btn-warning">Save</button>
       </form>
       <span class="form-group" ng-show="showAll">
@@ -31,6 +32,7 @@
           <button class="btn btn-sm btn-warning" ng-click="showAll = false">Close</button>
         </ul>
       </span>
+
     </li>
   </ul>
 </div>

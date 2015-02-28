@@ -8,9 +8,9 @@ newspaper.controller('ReportersCtrl', function ReportersCtrl($scope, $stateParam
 
     $scope.reporter = UtilitiesFactory.findById($scope.beat.reporters, id)
     $scope.reporter.tenure = $scope.reporterTenure;
-    $scope.reporter.awards = $scope.reporterAwards;
+    $scope.reporter.birthday = $scope.reporterBirthday;
 
     $scope.reporterTenure = null;
-    $scope.reporterAwards = null;
+    $scope.reporterBirthday = null;
   };
 });
